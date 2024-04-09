@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Petit+Formal+Script&display=swap');
+html{
+  display: flex;
+    justify-content: center;
+}
+body{
+  
+  background-image: url(https://www.diggitmagazine.com/sites/default/files/styles/2_1_mobile/public/field/image/tumblr_owo6ehclUC1wzusx8o1_1280.jpg?itok=Q9SKAf92);
+  background-size: cover;
+  display: flex;
+    justify-content: center;
+    
+}
+.container{
+  background-color: rgb(212, 210, 195,60%);
+  width: max-content;
+  border: solid 1px;
+}
+header{
+  display: flex;
+  text-align: center;
+align-items: center;
+margin-top: 17px;
+}
+.bloco1{
+  color: rgb(3, 189, 218, 2%);
+  background-color: rgb(3, 189, 218, 29%);
+  width: 40px;
+  height: 8px;
+}
+.bloco2{
+  color: rgb(3, 189, 218, 2%);
+  background-color: rgb(3, 189, 218, 29%);
+  width: 40px;
+  height: 8px;
+}
+h1{
+  font-family: "Petit Formal Script", cursive;
+margin: 0px;
+}
+p{
+  font-family: "Crimson Text", serif;
+  margin: 0;
+}
+main{
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+form{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+input{
+   background-color: rgba(245, 215, 95, 0.186);
+  margin: 5px;
+  border: solid 1px;
+  width: 85%;
+    padding: 4%;
+}
+input:hover{
+   background-color: rgb(255,215,47,24%);
+}
+input::placeholder{
+font-size:12px;
+  color: black;
+  font-family: "Crimson Text", serif;
+}
+button{
+  background-color:transparent;
+  margin: 5px;
+  width: min-content;
+  text-align: center;
+  font-family: "Crimson Text", serif;
+  border: solid 1px;
+}  
+button:hover{
+  background-color: rgb(3, 189, 218, 29%);
+}
+footer{
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+  }
+  .p_rodape{
+    margin: 0;
+  }
+ .p_rodape:hover{
+  color: rgba(245, 129, 216, 0.653);
+  }
+  .icon{
+    width: 20px;
+  }
